@@ -1,0 +1,286 @@
+<div
+    style="font-family: 'Segoe UI', Roboto, Arial, sans-serif; background-color: #ffffff; border-radius: 8px; border: 1px solid #dcdfe6; max-width: 1080px; margin: 0 auto; color: #333333; display: flex; min-height: 680px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.08);">
+
+    <!-- Left Vertical Navigation Bar (Staff POS Vertical Menu - Beta Cinemas Theme) -->
+    <aside
+        style="width: 230px; background-color: #004b91; color: #ffffff; display: flex; flex-direction: column; justify-content: space-between; flex-shrink: 0;">
+        <div>
+            <!-- Header / Branding -->
+            <div
+                style="padding: 20px 16px; border-bottom: 1px solid rgba(255,255,255,0.15); display: flex; align-items: center; gap: 10px;">
+                <div
+                    style="background-color: #ffffff; color: #004b91; font-weight: 900; font-size: 16px; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    CG
+                </div>
+                <div>
+                    <div style="font-weight: 900; font-size: 18px; color: #ffffff; line-height: 1;">CineGo</div>
+                    <div
+                        style="font-size: 10px; color: #38bdf8; font-weight: 700; letter-spacing: 1px; margin-top: 2px;">
+                        POS TERMINAL</div>
+                </div>
+            </div>
+
+            <!-- Attendant Identity & Branch Context (GB-05) -->
+            <div
+                style="padding: 12px 16px; background-color: rgba(0, 0, 0, 0.15); border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 11px;">
+                <div style="color: #cbd5e1;">Chi nhánh làm việc:</div>
+                <div style="font-weight: bold; color: #ffffff; font-size: 12px; margin-top: 2px;">CineGo Cầu Giấy
+                    (GB-05)</div>
+                <div style="color: #cbd5e1; margin-top: 6px;">Thu ngân:</div>
+                <div style="font-weight: 600; color: #38bdf8;">attendant1_caugiay</div>
+            </div>
+
+            <!-- Vertical Menu Items -->
+            <nav style="display: flex; flex-direction: column; gap: 4px; padding: 12px 8px;">
+                <a href="#"
+                    style="background-color: #ffffff; color: #004b91; padding: 10px 12px; border-radius: 6px; font-size: 13px; font-weight: bold; text-decoration: none; display: flex; align-items: center; gap: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <span>💵</span> Bán Vé Tại Quầy (SCR-5.1)
+                </a>
+                <a href="#"
+                    style="color: #ffffff; padding: 10px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 10px; opacity: 0.9;">
+                    <span>🔍</span> Tra Cứu & Soát Vé (SCR-5.2)
+                </a>
+                <a href="#"
+                    style="color: #ffffff; padding: 10px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 10px; opacity: 0.9;">
+                    <span>👥</span> Khách Hàng Rạp (SCR-5.3)
+                </a>
+            </nav>
+        </div>
+
+        <!-- Footer / Logout -->
+        <div style="padding: 16px; border-top: 1px solid rgba(255,255,255,0.15);">
+            <button
+                style="width: 100%; background-color: transparent; color: #ffffff; border: 1px solid rgba(255,255,255,0.4); padding: 8px; border-radius: 6px; font-size: 12px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                🚪 Đăng Xuất
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Workspace Area -->
+    <main style="flex-grow: 1; background-color: #ffffff; display: flex; flex-direction: column;">
+
+        <!-- Top Workspace Bar -->
+        <div
+            style="background-color: #ffffff; padding: 16px 24px; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2 style="font-size: 18px; font-weight: 800; color: #004b91; margin: 0 0 2px 0;">Tạo Đơn Vé & F&B Tại
+                    Quầy (Counter Booking POS - UC-15)</h2>
+                <p style="font-size: 12px; color: #64748b; margin: 0;">Lập đơn vé trực tiếp cho khách vãng lai, chọn
+                    ghế, chọn combo dịch vụ và in vé cứng kèm hóa đơn.</p>
+            </div>
+            <span
+                style="background-color: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; font-size: 11px; font-weight: bold; padding: 4px 10px; border-radius: 12px;">
+                POS Terminal #01 Active
+            </span>
+        </div>
+
+        <!-- POS Application Content (2-Column Grid) -->
+        <div
+            style="padding: 20px; display: grid; grid-template-columns: 1fr 340px; gap: 20px; flex-grow: 1; background-color: #f8fafc;">
+
+            <!-- Left Panel: Movie/Showtime Search, Seat Grid, Combo Items -->
+            <div style="display: flex; flex-direction: column; gap: 18px;">
+
+                <!-- 1. Movie/Showtime Search Bar -->
+                <div
+                    style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+                    <label
+                        style="display: block; font-size: 12px; font-weight: bold; color: #334155; margin-bottom: 6px;">
+                        🎬 Chọn Suất Chiếu Chi Nhánh (Movie/Showtime search - GB-05)
+                    </label>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <select
+                            style="padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 13px; outline: none; background-color: #fff; color: #1e293b; font-weight: 600;">
+                            <option value="m1" selected>Người Nhện: Trở Về (2D)</option>
+                            <option value="m2">Mai (2D)</option>
+                            <option value="m3">Godzilla x Kong 2 (3D)</option>
+                        </select>
+                        <select
+                            style="padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 13px; outline: none; background-color: #fff; color: #004b91; font-weight: 700;">
+                            <option value="s1" selected>18:30 – Hall 1 (Standard)</option>
+                            <option value="s2">20:45 – Hall 2 (VIP)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 2. Seat Grid (Simplified Matrix - BR-BK-02) -->
+                <div
+                    style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; align-items: center;">
+                    <div
+                        style="display: flex; justify-content: space-between; width: 100%; border-bottom: 1px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 12px;">
+                        <span style="font-size: 12px; font-weight: bold; color: #334155;">💺 Sơ Đồ Chọn Ghế (Seat grid -
+                            BR-BK-02)</span>
+                        <div style="display: flex; gap: 12px; font-size: 10px; font-weight: 600;">
+                            <span style="display: flex; align-items: center; gap: 4px;"><span
+                                    style="width: 10px; height: 10px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 2px;"></span>
+                                Trống</span>
+                            <span style="display: flex; align-items: center; gap: 4px;"><span
+                                    style="width: 10px; height: 10px; background-color: #004b91; border-radius: 2px;"></span>
+                                Đang chọn</span>
+                            <span style="display: flex; align-items: center; gap: 4px;"><span
+                                    style="width: 10px; height: 10px; background-color: #94a3b8; border-radius: 2px;"></span>
+                                Đã bán</span>
+                        </div>
+                    </div>
+
+                    <!-- Screen Indicator -->
+                    <div
+                        style="width: 80%; background-color: #cbd5e1; height: 6px; border-radius: 3px; margin-bottom: 14px; text-align: center; position: relative;">
+                        <span
+                            style="font-size: 9px; color: #64748b; font-weight: bold; position: absolute; top: -14px; left: 50%; transform: translateX(-50%);">MÀN
+                            HÌNH CHẾ CHIẾU</span>
+                    </div>
+
+                    <!-- Seat Matrix Simulation -->
+                    <div style="display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px;">
+                        <!-- Row A -->
+                        <div style="display: flex; gap: 6px; align-items: center;">
+                            <span style="font-size: 10px; font-weight: bold; width: 14px; color: #64748b;">A</span>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #94a3b8; color: #fff; border: none; border-radius: 4px; font-size: 9px; cursor: not-allowed;"
+                                disabled>A1</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #94a3b8; color: #fff; border: none; border-radius: 4px; font-size: 9px; cursor: not-allowed;"
+                                disabled>A2</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">A3</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">A4</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">A5</button>
+                        </div>
+                        <!-- Row D (Selected VIP) -->
+                        <div style="display: flex; gap: 6px; align-items: center;">
+                            <span style="font-size: 10px; font-weight: bold; width: 14px; color: #64748b;">D</span>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">D4</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">D5</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #004b91; color: #fff; border: none; border-radius: 4px; font-size: 9px; font-weight: bold; cursor: pointer;">D6</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #004b91; color: #fff; border: none; border-radius: 4px; font-size: 9px; font-weight: bold; cursor: pointer;">D7</button>
+                            <button
+                                style="width: 26px; height: 24px; background-color: #e2e8f0; border: 1px solid #cbd5e1; border-radius: 4px; font-size: 9px; cursor: pointer;">D8</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Combo Items Stepper Area -->
+                <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px;">
+                    <div
+                        style="font-size: 12px; font-weight: bold; color: #334155; margin-bottom: 10px; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px;">
+                        🍿 Đồ Ăn & Bắp Nước (Combo items stepper)
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <!-- Combo 1 -->
+                        <div
+                            style="border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; background-color: #fff;">
+                            <div>
+                                <div style="font-size: 12px; font-weight: bold; color: #1e293b;">Combo Solo</div>
+                                <div style="font-size: 10px; color: #64748b;">1 Bắp Ngọt + 1 Pepsi 500ml</div>
+                                <div style="font-size: 11px; font-weight: bold; color: #dc2626; margin-top: 2px;">75,000
+                                    VND</div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 6px;">
+                                <button
+                                    style="width: 22px; height: 22px; border: 1px solid #cbd5e1; background: #f1f5f9; border-radius: 4px; font-weight: bold; cursor: pointer;">-</button>
+                                <span
+                                    style="font-size: 12px; font-weight: bold; width: 14px; text-align: center;">1</span>
+                                <button
+                                    style="width: 22px; height: 22px; border: 1px solid #cbd5e1; background: #f1f5f9; border-radius: 4px; font-weight: bold; cursor: pointer;">+</button>
+                            </div>
+                        </div>
+
+                        <!-- Combo 2 -->
+                        <div
+                            style="border: 1px solid #cbd5e1; border-radius: 6px; padding: 8px 12px; display: flex; justify-content: space-between; align-items: center; background-color: #fff;">
+                            <div>
+                                <div style="font-size: 12px; font-weight: bold; color: #1e293b;">Combo Couple</div>
+                                <div style="font-size: 10px; color: #64748b;">1 Bắp Lớn + 2 Pepsi 500ml</div>
+                                <div style="font-size: 11px; font-weight: bold; color: #dc2626; margin-top: 2px;">
+                                    115,000 VND</div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 6px;">
+                                <button
+                                    style="width: 22px; height: 22px; border: 1px solid #cbd5e1; background: #f1f5f9; border-radius: 4px; font-weight: bold; cursor: pointer;">-</button>
+                                <span
+                                    style="font-size: 12px; font-weight: bold; width: 14px; text-align: center;">0</span>
+                                <button
+                                    style="width: 22px; height: 22px; border: 1px solid #cbd5e1; background: #f1f5f9; border-radius: 4px; font-weight: bold; cursor: pointer;">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Panel: Summary Order & Payment Method Confirmation -->
+            <div
+                style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                <div>
+                    <h3
+                        style="font-size: 14px; font-weight: bold; color: #004b91; margin: 0 0 12px 0; border-bottom: 2px solid #004b91; padding-bottom: 6px;">
+                        📋 Chi Tiết Đơn Hàng Tại Quầy
+                    </h3>
+
+                    <!-- Order Itemized List -->
+                    <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12px; margin-bottom: 16px;">
+                        <div style="display: flex; justify-content: space-between; color: #475569;">
+                            <span>Phim: <strong>Người Nhện: Trở Về</strong></span>
+                            <span>18:30</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; color: #475569;">
+                            <span>Ghế chọn: <strong style="color: #004b91;">D6, D7 (2x VIP)</strong></span>
+                            <span>190,000đ</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; color: #475569;">
+                            <span>F&B: <strong>1x Combo Solo</strong></span>
+                            <span>75,000đ</span>
+                        </div>
+                        <div
+                            style="border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 4px; display: flex; justify-content: space-between; font-size: 14px; font-weight: bold; color: #dc2626;">
+                            <span>TỔNG THÀNH TIỀN:</span>
+                            <span>265,000 VND</span>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method Selection (Radio Values: Cash, Card / QR) -->
+                    <div
+                        style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px; margin-bottom: 16px;">
+                        <label
+                            style="display: block; font-size: 12px; font-weight: bold; color: #334155; margin-bottom: 8px;">
+                            💳 Phương thức thanh toán (Payment method)
+                        </label>
+                        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12px;">
+                            <label
+                                style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; color: #1e293b;">
+                                <input type="radio" name="pay_method" value="Cash" checked>
+                                💵 Tiền mặt tại quầy (Cash)
+                            </label>
+                            <label
+                                style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; color: #1e293b;">
+                                <input type="radio" name="pay_method" value="Card_QR">
+                                💳 Quét thẻ POS / QR (Card / QR)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Confirm & Print Ticket Action Button -->
+                <div>
+                    <button
+                        style="width: 100%; background-color: #004b91; color: #ffffff; border: none; padding: 12px; border-radius: 6px; font-size: 13px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-transform: uppercase; letter-spacing: 0.5px;">
+                        🖨️ Xác Nhận & In Vé Cứng (Confirm & Print Ticket)
+                    </button>
+                    <div style="font-size: 10px; color: #64748b; text-align: center; margin-top: 6px;">
+                        Tự động tạo Đơn hàng, Ghi nhận Thanh toán & In Vé/Hóa đơn trong 1 bước duy nhất.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</div>
